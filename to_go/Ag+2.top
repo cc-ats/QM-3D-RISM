@@ -1,0 +1,24 @@
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+     1 2      yes    1.000000 1.000000
+
+[ atomtypes ]
+;type, bondingtype, atomic_number, mass, charge, ptype, sigma, epsilon
+;c3          c3         6        12.01000000         0.00000000 A        3.39967000e-01     4.57730000e-01
+;hc          hc         1         1.00800000         0.00000000 A        2.64953000e-01     6.56888000e-02
+Ag+          AG       47	 107.8700000         0.00000000 A        0.238939036205     0.034243153040
+
+[ moleculetype ]
+MOL          3
+
+[ atoms ]
+;num, type, resnum, resname, atomname, cgnr, q, m
+     1 Ag+ 1 MOL      AG            1        +1    107.87000000
+
+[ system ]
+Untitled
+
+[ molecules ]
+; Compound        nmols
+MOL                    2
+

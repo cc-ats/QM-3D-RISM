@@ -1,0 +1,35 @@
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv/
+env/
+venv/
+
+# EPISOL build directory & binary archives
+episol/
+
+# Calculation output & intermediate files
+*.log
+*.ts4s
+*.solute
+*.coulomb
+*.png
+out.top
+huv_*.txt
+guv_*.txt
+cuv_*.txt
+
+# Large notebooks & reference papers
+papers/
+test_execution.ipynb
